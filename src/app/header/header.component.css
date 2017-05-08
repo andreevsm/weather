@@ -1,0 +1,17 @@
+nav{
+    background: #42aaff;
+    text-align: center;
+    font-size: 1.5em;
+}
+a:hover{
+    color: #000;
+}
+a{
+    border-left: 1px solid #fff;
+}
+a:first-child{
+    border: none;
+}
+a:last-child{
+    padding-left: 5px;
+}

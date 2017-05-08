@@ -1,0 +1,14 @@
+<form (ngSubmit)="onSubmit(form)"#form="ngForm">
+		<input type="text" ngModel name="city" placeholder="enter a city">
+		<button class="btn btn-default">Search</button>
+	</form>
+<div class="container">
+	<div class="data">
+		<h1>{{myWeather.cityName}}</h1>
+		<h2>{{myWeather.temp}}&deg; C</h2>
+		<h3>{{myWeather.weatherKind}}</h3>
+	</div>
+</div>
+
+
+	

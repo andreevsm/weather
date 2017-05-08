@@ -1,0 +1,15 @@
+ <form [formGroup]="forecastForm" (ngSubmit)="onSubmit()" >
+  <input type="text" formControlName="forecastCity" placeholder="enter a city">
+  <button class="btn btn-default">Search</button>
+</form>
+<div class="container">
+  <div class="day" *ngFor="let day of cityForecast">
+    <tr>
+      <td>
+        <h2>{{day.day | date: 'MMM d'}}</h2>
+        <h3>{{day.temp}}&deg; C</h3>
+      </td>
+    </tr>
+  </div> 
+</div>
+ 

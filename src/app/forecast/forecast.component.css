@@ -1,0 +1,33 @@
+.day{
+    display: inline;
+    text-align: center;
+    top: 500px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+      
+}
+form{
+    width: 280px;
+    margin-top: 70px;
+    text-align: center;
+  position: relative;  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+td{
+     border-bottom: 4px solid #42aaff;
+     width: 200px;
+     
+}
+.btn{
+   background: #42aaff; 
+   width: 280px;
+}
+.container{
+  position: relative;
+  text-align: center;
+  }
