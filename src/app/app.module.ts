@@ -4,12 +4,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { CurrentComponent } from './current/current.component';
-import { ForecastComponent } from './forecast/forecast.component';
+import { HeaderComponent } from './components/header/header.component';
+import { CurrentComponent } from './components/currentWeather/currentWeather.component';
+import { ForecastComponent } from './components/forecast/forecast.component';
 import { weatherRouting } from './weather.routing';
-import { WeatherService } from './weather.service';
-import { ResolveLocationService } from './resolve-location.service';
+import { WeatherService } from './services/weather.service';
+import { ResolveLocationService } from './services/resolve-location.service';
 
 
 
@@ -19,7 +19,7 @@ import { ResolveLocationService } from './resolve-location.service';
     HeaderComponent,
     CurrentComponent,
     ForecastComponent,
-    
+
   ],
   imports: [
     BrowserModule,
